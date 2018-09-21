@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER James O'Beirne <james@chaincode.com>
 
-ARG VERSION=0.16.1
+ARG VERSION=0.16.3
 ARG GLIBC_VERSION=2.27-r0
 
 ENV FILENAME bitcoin-${VERSION}-x86_64-linux-gnu.tar.gz
